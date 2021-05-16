@@ -1,0 +1,150 @@
+.btn-default {
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #29a219;
+    border-radius: 2px;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: notosans-bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+    .btn-default:hover {
+        background-color: #228614;
+    }
+
+    .btn-default:active {
+        background-color: #228614;
+    }
+
+.btn-refresh {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 24px;
+    border: 1px solid #bbbbbb;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+.btn-refresh:hover {
+    animation: rotate 1.5s infinite;
+    border-radius: 50%;
+}
+.btn-delete-confirm {
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #F65454;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #ffffff;
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-delete-confirm:hover {
+    background-color: #e61e1e;
+}
+.btn-cancel-confirm {
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 40px;
+    line-height: 40px;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #000000;
+    font-style: normal;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-cancel-confirm:hover {
+    background-color: #DADCE0;
+}
+@keyframes rotate {
+    0% {
+        background-color: #019160;
+    }
+    12.5% {
+        transform: rotate(45deg);
+        background-color: #019160;
+    }
+    25% {
+        transform: rotate(90deg);
+        background-color: #019160;
+    }
+    37.5% {
+        transform: rotate(135deg);
+        background-color: #019160;
+    }
+    50% {
+        transform: rotate(180deg);
+        background-color: #019160;
+    }
+    62.5% {
+        transform: rotate(225deg);
+        background-color: #019160;
+    }
+    75% {
+        transform: rotate(270deg);
+        background-color: #019160;
+    }
+    87.5% {
+        transform: rotate(315deg);
+        background-color: #019160;
+    }
+    100% {
+        transform: rotate(369deg);
+        background-color: #019160;
+    }
+}
+
+.btn-delete{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 64px;
+    margin-right: 8px;
+    border: 1px solid #bbbbbb;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    background-color: rgba(255, 0, 0, 0.527);
+    
+    background-repeat:no-repeat;
+    background-size:25px;
+    background-position: center;
+}
+.btn-cancel {
+    display: inline-block;
+    outline: none;
+    border: 1px solid #393a3e;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 30px;
+    line-height: 25px;
+    background-color: transparent;
+    border-radius: 2px;
+    font-size: 13px;
+    font-family: notosans-bold;
+    cursor: pointer;
+    text-align: center;
+}
